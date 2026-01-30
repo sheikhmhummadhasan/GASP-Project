@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: monospace;
 }
+.curcer{
+    height: 20px;
+    width: 20px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+}
 
 .hov:hover{
     box-shadow: 5px 4px 7px #85ff6075;
@@ -44,16 +51,26 @@ nav h1 i{
     font-size: 1.2rem;
     font-weight: 550;
 }
+/* section-0 */
+.scetion-0{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px auto;
+}
+svg path{
+    stroke-width: 3;
+}
 /* hero-section */
 
 .hero-section{
     max-width: 1440px;
-    height: 80vh;
+    height: 65vh;
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 50px;
+    justify-content: space-between;
     margin: 50px auto;
+    /* background-color: antiquewhite; */
 }
 .info{
     width: 50%;
@@ -173,8 +190,33 @@ nav h1 i{
     width: 50%;
     height: 100%;
 }
-
 /* section-4 */
+
+.section-5{
+    /* max-width: 1440px;
+    width: 100%; */
+    background-color: #dcff19;
+    margin: 100px auto;
+    overflow:hidden ;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.obj{
+    padding: 27px 30px;
+}
+.obj h1{
+    white-space: nowrap;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+/* section-5 */
 .happen{
     height: 450px;
     display: flex;
@@ -214,6 +256,14 @@ nav h1 i{
 .case h1{
     font-size: 2.2rem;
     background-color: #93ff58;
+}
+.happy-btn{
+    padding: 15px 20px;
+    background: #151515;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.2rem;
 }
 
 .footer-container{
